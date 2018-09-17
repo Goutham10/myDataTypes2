@@ -38,17 +38,5 @@ public class Employee
 		System.out.println(" parameterised ");
 
 	}
-	public static void main(String[] args) 
-	{
-		
-		Employee e=new Employee();
-		e.workPerfomance();
-		e.remarks();
-		e.currentStatus();
-		Employee e1=new Employee("1","goutham","34","86593364","1-9-1015","goutham@gmail.com");
-		e1.workPerfomance();
-		e1.remarks();
-		e1.currentStatus();
-	}
 
 }

@@ -3,6 +3,12 @@ import myDataTypes.*;
 
 public class IPLTicket 
 {
+	char [] ticketNumber;
+	double cost;
+	char typeOfTicket;
+	char stadiumName;
+	int date;
+	
 	public void innings()
 	{
 		System.out.println(" game going on.....");
@@ -19,16 +25,5 @@ public class IPLTicket
 	{
 		System.out.println(" parameterised ");
 	}
-	public static void main(String[] args) 
-	{
-		char [] ticketNumber;
-		double cost;
-		char typeOfTicket;
-		char stadiumName;
-		int date;
-		IPLTicket i= new IPLTicket();
-		i.innings();
-		i.breakTime();
-	}
-
+	
 }

@@ -1,22 +1,27 @@
 package myDataTypes.social;
 import myDataTypes.*;
 
-public class WhatsappGroup {
-
-	public static void admin()
+public class WhatsappGroup 
+{
+	char[] gName;
+	short noOfMembers;
+	int dateOfCreation;
+	char adminName;
+	
+	public void admin()
 	{
-		
+		System.out.println(" admin ");
 	}
-	public static void membersInteraction()
+	public void membersInteraction()
 	{
-		
+		System.out.println(" memebers details.");
 	}
-	public static void main(String[] args) 
+	public WhatsappGroup()
 	{
-		char[] gName;
-		short noOfmembers;
-		int dateOfCreation;
-		char adminName;
+		System.out.println(" default");
 	}
-
+	public WhatsappGroup(char gName,short noOfMembers,int dateOfCreation,char adminName)
+	{
+		System.out.println(" parameterised");
+	}
 }

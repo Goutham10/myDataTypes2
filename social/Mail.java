@@ -3,21 +3,27 @@ import myDataTypes.*;
 
 public class Mail 
 {
-	public static void recievingAndSending()
+	char [] emailID;
+	char name;
+	char typeOfDomain;
+	char networkName;
+	
+	public void recievingAndSending()
 	{
-		
+		System.out.println(" recieving and sending");
 	}
-	public static void networkStatus()
+	public void networkStatus()
 	{
-		
+		System.out.println(" networkstatus");
 	}
-	public static void main(String[] args) 
+	
+	public Mail()
 	{
-		char [] emailID;
-		char name;
-		char typeOfDomain;
-		char networkName;
-		
+		System.out.println(" default");
 	}
-
+	
+	public Mail(char emailId,char name,char typeOfDomain,char networkName)
+	{
+		System.out.println(" parameterised");
+	}
 }
